@@ -1,0 +1,18 @@
+{block content}
+
+    {form loginForm}
+    <div class="container" style="width:27em;">
+      <div class="alert alert-danger" role="alert" n:if="$form->hasErrors()">
+        <p n:foreach="$form->errors as $error">{$error}</p>
+      </div>
+
+      <h2 class="form-signin-heading">Přihlášení</h2>
+      <label for="inputEmail" class="sr-only">Jméno</label>
+      {input name}
+      <br>
+      <label for="inputPassword" class="sr-only">Heslo</label>
+      {input password}
+      <br>
+      {input signin}
+    </div>
+    {/form}

@@ -1,0 +1,72 @@
+{var gridoAssetsPath = 'https://cdn.rawgit.com/o5/grido/1a4f1e5'}
+{*var gridoAssetsPath = $baseUri*}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Blablabla</title>
+        <meta name="description" content="Grido - DataGrid for Nette Framework">
+        <meta name="author" content="Petr Bugyík">
+        <meta name="robots" content="{$robots}" n:ifset="$robots">
+        <link rel="shortcut icon" href="{$baseUri}/favicon.ico">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/simonwhitaker/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.css">
+        <!--[if IE]>
+            <link rel="stylesheet" href="https://cdn.rawgit.com/simonwhitaker/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.ie.css">
+        <![endif]-->
+        <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v3.1.1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v3.1.1/dist/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/dangrossman/bootstrap-daterangepicker/v1.3.17/daterangepicker-bs3.css">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/hyspace/typeahead.js-bootstrap3.less/v0.2.3/typeahead.css">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/rstacruz/nprogress/v0.1.6/nprogress.css">
+        <link rel="stylesheet" href="{$gridoAssetsPath}/client-side/css/grido.css">
+        <link href="{$gridoAssetsPath}/client-side/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="{$baseUri}/css/style.css">
+    </head>
+    <body>
+        <div id="content" style="max-width:80em;margin:0 auto;">
+                <div class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="{$baseUri}/">Domácí úkol</a>
+                        <a n:if="$user -> isLoggedIn() && $user->isAllowed('users','add')" n:href="Users:add" class="btn btn-default btn-sm createnew" style="position:relative;top:7px;left:50px;">Vytvořit nového uživatele</a>
+                    </div>
+
+                </div>
+            </div>
+
+            {snippet flash}
+                <div n:foreach="$flashes as $flash" class="alert alert-{$flash->type} fade in">
+                    <button type="button" class="close" data-dismiss="alert">×</button>
+                    <p>{$flash->message}</p>
+                </div>
+            {/snippet}
+
+            {include #content}
+
+        </div>
+
+        <script src="https://cdn.rawgit.com/moment/moment/2.9.0/moment.js"></script>
+        <script src="https://cdn.rawgit.com/jquery/jquery/1.11.2/dist/jquery.min.js"></script>
+        <script src="https://cdn.rawgit.com/twbs/bootstrap/v3.1.1/dist/js/bootstrap.min.js"></script>
+        <script src="https://cdn.rawgit.com/dangrossman/bootstrap-daterangepicker/v1.3.17/daterangepicker.js"></script>
+        <script src="https://cdn.rawgit.com/nette/forms/v2.2.4/src/assets/netteForms.js"></script>
+
+        {var ajax = $presenter->getParameter('ajax') == 'on'}
+        <script n:if="$ajax" src="https://cdn.rawgit.com/browserstate/history.js/1.8.0/scripts/bundled/html4+html5/jquery.history.js"></script>
+        <script n:if="$ajax" src="https://cdn.rawgit.com/twitter/typeahead.js/v0.10.5/dist/typeahead.bundle.min.js"></script>
+        <script n:if="$ajax" src="https://cdn.rawgit.com/vojtech-dobes/nette.ajax.js/2.0.0/nette.ajax.js"></script>
+        <script n:if="$ajax" src="https://cdn.rawgit.com/rstacruz/nprogress/v0.1.6/nprogress.js"></script>
+        <script n:if="$ajax" src="{$baseUri}/js/nette.nprogress.js"></script>
+
+        <script src="{$gridoAssetsPath}/client-side/js/grido.js"></script>
+        <script src="{$gridoAssetsPath}/client-side/js/plugins/grido.datepicker.js"></script>
+        <script n:if="$ajax" src="{$gridoAssetsPath}/client-side/js/plugins/grido.typeahead.js"></script>
+        <script n:if="$ajax" src="{$gridoAssetsPath}/client-side/js/plugins/grido.history.js"></script>
+        <script n:if="$ajax" src="{$gridoAssetsPath}/client-side/js/plugins/grido.nette.ajax.js"></script>
+
+        <script n:if="$ajax" src="{$baseUri}/js/main.ajax.js"></script>
+        <script n:if="!$ajax" src="{$baseUri}/js/main.js"></script>
+    </body>
+</html>

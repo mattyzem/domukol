@@ -1,0 +1,10 @@
+temp/*
+log/*
+vendor/*
+app/models/doctrine/proxies/*
+www/components
+
+.DS_Store
+nbproject
+.idea
+composer.lock
