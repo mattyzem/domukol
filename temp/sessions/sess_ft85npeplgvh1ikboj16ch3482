@@ -1,0 +1,186 @@
+__NF|a:4:{s:4:"Time";i:1446727516;s:1:"B";s:10:"63cjbxv8ej";s:4:"DATA";a:1:{s:23:"Nette.Http.UserStorage/";a:2:{s:13:"authenticated";N;s:8:"identity";N;}}s:11:"debuggerbar";a:1:{i:0;a:2:{s:6:"panels";a:6:{i:0;a:3:{s:2:"id";s:10:"Tracy-info";s:3:"tab";s:353:"<span title="Execution time">
+<svg viewBox="0 0 2048 2048"><path fill="#86bbf0" d="m640 1153.6v639.3h-256v-639.3z"/><path fill="#6ba9e6" d="m1024 254.68v1538.2h-256v-1538.2z"/><path fill="#4f96dc" d="m1408 897.57v894.3h-256v-894.3z"/><path fill="#3987d4" d="m1792 513.08v1279.8h-256v-1279.8z"/>
+</svg><span class="tracy-label">924.5 ms</span>
+</span>
+";s:5:"panel";s:918:"<style class="tracy-debug">
+	#tracy-debug .tracy-InfoPanel td {
+		white-space: nowrap;
+	}
+	#tracy-debug .tracy-InfoPanel td:nth-child(2) {
+		font-weight: bold;
+	}
+	#tracy-debug .tracy-InfoPanel td[colspan='2'] b {
+		float: right;
+		margin-left: 2em;
+	}
+</style>
+
+<h1>System info</h1>
+
+<div class="tracy-inner tracy-InfoPanel">
+<table>
+<tr>
+	<td>Execution time</td><td>924.5 ms</td>
+</tr>
+<tr>
+	<td>Peak of allocated memory</td><td>16.34 MB</td>
+</tr>
+<tr>
+	<td>Included files</td><td>302</td>
+</tr>
+<tr>
+	<td>Classes + interfaces + traits</td><td>434 + 69 + 0</td>
+</tr>
+<tr>
+	<td>Your IP</td><td>::1</td>
+</tr>
+<tr>
+	<td>Server IP</td><td>::1</td>
+</tr>
+<tr>
+	<td>PHP</td><td>5.5.12</td>
+</tr>
+<tr>
+	<td>Tracy</td><td>2.3.5</td>
+</tr>
+<tr>
+	<td colspan=2>Server <b>Apache/2.4.9 (Win64) PHP/5.5.12</b></td>
+</tr>
+<tr>
+	<td colspan=2>Nette Framework <b>2.3.7 (released on 2015-10-14)</b></td>
+</tr>
+</table>
+</div>
+";}i:1;a:3:{s:2:"id";s:12:"Tracy-errors";s:3:"tab";s:0:"";s:5:"panel";N;}i:2;a:3:{s:2:"id";s:30:"Kdyby-Events-Diagnostics-Panel";s:3:"tab";s:2572:"<span title="Kdyby/Events"><img width="16" height="16" src="data:image/png;base64,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" />7 calls</span>";s:5:"panel";s:21083:"<style>			#nette-debug .nette-panel .nette-KdybyEventsPanel,
+			#tracy-debug .tracy-panel .nette-KdybyEventsPanel { width: 670px !important;  }
+			#nette-debug .nette-panel .nette-KdybyEventsPanel table,
+			#tracy-debug .tracy-panel .nette-KdybyEventsPanel table { width: 655px !important; }
+			#nette-debug .nette-panel .nette-KdybyEventsPanel table th,
+			#tracy-debug .tracy-panel .nette-KdybyEventsPanel table th { font-size: 16px; }
+			#nette-debug .nette-panel .nette-KdybyEventsPanel table tr td:first-child,
+			#tracy-debug .tracy-panel .nette-KdybyEventsPanel table tr td:first-child { padding-bottom: 0; }
+			#nette-debug .nette-panel .nette-KdybyEventsPanel table tr.blank td,
+			#tracy-debug .tracy-panel .nette-KdybyEventsPanel table tr.blank td { background: white; height:25px; border-left:0; border-right:0; }
+			#nette-debug .nette-panel .nette-KdybyEventsPanel table tr td ul,
+			#tracy-debug .tracy-panel .nette-KdybyEventsPanel table tr td ul { background: url(data:image/gif;base64,R0lGODlhCQAJAIABAIODg////yH5BAEAAAEALAAAAAAJAAkAAAIPjI8GebDsHopSOVgb26EAADs=) 0 5px no-repeat; padding-left: 12px; list-style-type: none; }</style><h1>0 registered events, 0 registered listeners</h1><div class="nette-inner tracy-inner nette-KdybyEventsPanel"><table><tr><th colspan=2 id="kdyby-event-c51240489383a2f4d7917ce628878b0d">1x Nette\DI\Container::onInitialize</th></tr><tr><td>&nbsp;</td><td>no system listeners</th></tr><tr><td width=18><img width="18" height="18" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAANsSURBVHja7JfdT5tVHMc/fXna8jztOmBFeRdRWDKNRrIZ4s3MYhYSb7gxpPPKXft27V+gtzN6MROJMwuaGOICWbYlhHAxwA6mg61AaaGl3bqupQVLafs85zze9GbJeCvTXci5Pcn5fvL7nd/3fI/FNE1e5LLygtcRwBGAfbfNnp4eO6ABNcA2sAUY1YrNzMwcDADQev3RT+taCgOpsPta4LfWK8BjYPMwIAcBqPU2bn/84bufdAfbbp868WrwwnpMHZ7+pf0ykAQ2r14/re8l4u8LVA2gOj16t1MR9Hb281Zrqe3Bw4nPa9vuDGTj6sjscMv3/r7AGpAD9KvXT5vPuwI2IaAsspTFJg5bHe+0n+ON5vdfWnw0fbHh9fGLqWVt6P7Nxkv5tDPi7wtkgfJBQPYCwBAgTZBmGUMmKeoZHDYvp1rOcLL5PUItgQFf59jA47BjODLp+y6z4g76+wLrQHE/IHsDGBaklEhTAiApYcgURT2DYvfS1fQm3U1nWG6f65/tuNWfXEndSAaP/xi/W3e7ArINyKoBdB2kKTHNp88QSISepmhkcdg8dDS089rLX7LaGT4/3T563ncyO54JHxuM/eEbA54AJcCsqgKmaSJ3ejVNg6LMUtRzKDYPzfUNfOT7jHhX7OzU0s2zta9EbiXu1n+VDnnvVSAOWAGDSgv2aqdJSW5Q0jewW114NIVzb/eycGLpgwljZS0d8n5RHYBuIVfYwJB7+47FYsFhd6I6rAihM7scJJSIEg+0/gSUq7wDFgwEhil2FsaCYnegOd1YsTOzGOJ+dIXNNXVobaLra1G2hasHMEAIiRByB2EF1aGhWF3MhVf5c3mZjbhz+NFk5zdGwR6pmFT5UGNoSIkhn66AYlPQnG5c9hqCqwkCiyFyCWUkt9D4beGh+x6Q2U34QGMoTIGotMBuU9CcGqqishRLMTUfIJuw3tiK1l/Orx6fqgg/c+SqNyIhsWBFdah4XB4i8XUm5+dIxeR4MXlsMB+qHwPSQHG/wvsFEIYAl6MGt1Mjnvqba+N3SMb06fIT7Up+wTdaMZld3e4wAAU9ryxm1kvdo3Mh4tHinJ5Rh7YeNA8BqYqw+DfzQLacc/3868jigJFVfy/MdwxWAknhvwokW1t/NV0CfngekeyZHnL0MzoC+N8D/DMAv72saI1IiPMAAAAASUVORK5CYII=" title="Event dispatch" /></td><td id="kdyby-event-arg-a69c63586d73c11dfb749bac52bac0f6"><pre class="tracy-dump"><span class="tracy-toggle tracy-collapsed"><span class="tracy-dump-object">Kdyby\Events\EventArgsList</span> <span class="tracy-dump-hash">#a69c</span></span>
+<div class="tracy-collapsed"><span class="tracy-dump-indent">   </span><span class="tracy-dump-key">args</span> <span class="tracy-dump-visibility">private</span> => <span class="tracy-toggle"><span class="tracy-dump-array">array</span> (1)</span>
+<div><span class="tracy-dump-indent">   |  </span><span class="tracy-dump-key">0</span> => <span class="tracy-dump-object">Container_295b2946bd</span> <span class="tracy-dump-hash">#1c31</span> { ... }
+</div></div></pre>
+</td></tr><tr><th colspan=2 id="kdyby-event-836f44d0273a227e94bb0eb0410d122e">1x Nette\Application\Application::onStartup</th></tr><tr><td>&nbsp;</td><td>no system listeners</th></tr><tr><td width=18><img width="18" height="18" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAANsSURBVHja7JfdT5tVHMc/fXna8jztOmBFeRdRWDKNRrIZ4s3MYhYSb7gxpPPKXft27V+gtzN6MROJMwuaGOICWbYlhHAxwA6mg61AaaGl3bqupQVLafs85zze9GbJeCvTXci5Pcn5fvL7nd/3fI/FNE1e5LLygtcRwBGAfbfNnp4eO6ABNcA2sAUY1YrNzMwcDADQev3RT+taCgOpsPta4LfWK8BjYPMwIAcBqPU2bn/84bufdAfbbp868WrwwnpMHZ7+pf0ykAQ2r14/re8l4u8LVA2gOj16t1MR9Hb281Zrqe3Bw4nPa9vuDGTj6sjscMv3/r7AGpAD9KvXT5vPuwI2IaAsspTFJg5bHe+0n+ON5vdfWnw0fbHh9fGLqWVt6P7Nxkv5tDPi7wtkgfJBQPYCwBAgTZBmGUMmKeoZHDYvp1rOcLL5PUItgQFf59jA47BjODLp+y6z4g76+wLrQHE/IHsDGBaklEhTAiApYcgURT2DYvfS1fQm3U1nWG6f65/tuNWfXEndSAaP/xi/W3e7ArINyKoBdB2kKTHNp88QSISepmhkcdg8dDS089rLX7LaGT4/3T563ncyO54JHxuM/eEbA54AJcCsqgKmaSJ3ejVNg6LMUtRzKDYPzfUNfOT7jHhX7OzU0s2zta9EbiXu1n+VDnnvVSAOWAGDSgv2aqdJSW5Q0jewW114NIVzb/eycGLpgwljZS0d8n5RHYBuIVfYwJB7+47FYsFhd6I6rAihM7scJJSIEg+0/gSUq7wDFgwEhil2FsaCYnegOd1YsTOzGOJ+dIXNNXVobaLra1G2hasHMEAIiRByB2EF1aGhWF3MhVf5c3mZjbhz+NFk5zdGwR6pmFT5UGNoSIkhn66AYlPQnG5c9hqCqwkCiyFyCWUkt9D4beGh+x6Q2U34QGMoTIGotMBuU9CcGqqishRLMTUfIJuw3tiK1l/Orx6fqgg/c+SqNyIhsWBFdah4XB4i8XUm5+dIxeR4MXlsMB+qHwPSQHG/wvsFEIYAl6MGt1Mjnvqba+N3SMb06fIT7Up+wTdaMZld3e4wAAU9ryxm1kvdo3Mh4tHinJ5Rh7YeNA8BqYqw+DfzQLacc/3868jigJFVfy/MdwxWAknhvwokW1t/NV0CfngekeyZHnL0MzoC+N8D/DMAv72saI1IiPMAAAAASUVORK5CYII=" title="Event dispatch" /></td><td id="kdyby-event-arg-9e4be8076c88367ae9725462b69a0ed9"><pre class="tracy-dump"><span class="tracy-toggle tracy-collapsed"><span class="tracy-dump-object">Kdyby\Events\EventArgsList</span> <span class="tracy-dump-hash">#9e4b</span></span>
+<div class="tracy-collapsed"><span class="tracy-dump-indent">   </span><span class="tracy-dump-key">args</span> <span class="tracy-dump-visibility">private</span> => <span class="tracy-toggle"><span class="tracy-dump-array">array</span> (1)</span>
+<div><span class="tracy-dump-indent">   |  </span><span class="tracy-dump-key">0</span> => <span class="tracy-dump-object">Nette\Application\Application</span> <span class="tracy-dump-hash">#c219</span> { ... }
+</div></div></pre>
+</td></tr><tr><th colspan=2 id="kdyby-event-35aed183a30342143f90ffc302e70941">1x Nette\Application\Application::onRequest</th></tr><tr><td>&nbsp;</td><td>no system listeners</th></tr><tr><td width=18><img width="18" height="18" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAANsSURBVHja7JfdT5tVHMc/fXna8jztOmBFeRdRWDKNRrIZ4s3MYhYSb7gxpPPKXft27V+gtzN6MROJMwuaGOICWbYlhHAxwA6mg61AaaGl3bqupQVLafs85zze9GbJeCvTXci5Pcn5fvL7nd/3fI/FNE1e5LLygtcRwBGAfbfNnp4eO6ABNcA2sAUY1YrNzMwcDADQev3RT+taCgOpsPta4LfWK8BjYPMwIAcBqPU2bn/84bufdAfbbp868WrwwnpMHZ7+pf0ykAQ2r14/re8l4u8LVA2gOj16t1MR9Hb281Zrqe3Bw4nPa9vuDGTj6sjscMv3/r7AGpAD9KvXT5vPuwI2IaAsspTFJg5bHe+0n+ON5vdfWnw0fbHh9fGLqWVt6P7Nxkv5tDPi7wtkgfJBQPYCwBAgTZBmGUMmKeoZHDYvp1rOcLL5PUItgQFf59jA47BjODLp+y6z4g76+wLrQHE/IHsDGBaklEhTAiApYcgURT2DYvfS1fQm3U1nWG6f65/tuNWfXEndSAaP/xi/W3e7ArINyKoBdB2kKTHNp88QSISepmhkcdg8dDS089rLX7LaGT4/3T563ncyO54JHxuM/eEbA54AJcCsqgKmaSJ3ejVNg6LMUtRzKDYPzfUNfOT7jHhX7OzU0s2zta9EbiXu1n+VDnnvVSAOWAGDSgv2aqdJSW5Q0jewW114NIVzb/eycGLpgwljZS0d8n5RHYBuIVfYwJB7+47FYsFhd6I6rAihM7scJJSIEg+0/gSUq7wDFgwEhil2FsaCYnegOd1YsTOzGOJ+dIXNNXVobaLra1G2hasHMEAIiRByB2EF1aGhWF3MhVf5c3mZjbhz+NFk5zdGwR6pmFT5UGNoSIkhn66AYlPQnG5c9hqCqwkCiyFyCWUkt9D4beGh+x6Q2U34QGMoTIGotMBuU9CcGqqishRLMTUfIJuw3tiK1l/Orx6fqgg/c+SqNyIhsWBFdah4XB4i8XUm5+dIxeR4MXlsMB+qHwPSQHG/wvsFEIYAl6MGt1Mjnvqba+N3SMb06fIT7Up+wTdaMZld3e4wAAU9ryxm1kvdo3Mh4tHinJ5Rh7YeNA8BqYqw+DfzQLacc/3868jigJFVfy/MdwxWAknhvwokW1t/NV0CfngekeyZHnL0MzoC+N8D/DMAv72saI1IiPMAAAAASUVORK5CYII=" title="Event dispatch" /></td><td id="kdyby-event-arg-696fc7ceb75cbe185cc765cb219aebee"><pre class="tracy-dump"><span class="tracy-toggle tracy-collapsed"><span class="tracy-dump-object">Kdyby\Events\EventArgsList</span> <span class="tracy-dump-hash">#696f</span></span>
+<div class="tracy-collapsed"><span class="tracy-dump-indent">   </span><span class="tracy-dump-key">args</span> <span class="tracy-dump-visibility">private</span> => <span class="tracy-toggle"><span class="tracy-dump-array">array</span> (2)</span>
+<div><span class="tracy-dump-indent">   |  </span><span class="tracy-dump-key">0</span> => <span class="tracy-dump-object">Nette\Application\Application</span> <span class="tracy-dump-hash">#c219</span> { ... }
+<span class="tracy-dump-indent">   |  </span><span class="tracy-dump-key">1</span> => <span class="tracy-dump-object">Nette\Application\Request</span> <span class="tracy-dump-hash">#f5a5</span> { ... }
+</div></div></pre>
+</td></tr><tr><th colspan=2 id="kdyby-event-b622552171dab5a708d04437ecfea8ce">1x Nette\Application\Application::onPresenter</th></tr><tr><td>&nbsp;</td><td>no system listeners</th></tr><tr><td width=18><img width="18" height="18" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAANsSURBVHja7JfdT5tVHMc/fXna8jztOmBFeRdRWDKNRrIZ4s3MYhYSb7gxpPPKXft27V+gtzN6MROJMwuaGOICWbYlhHAxwA6mg61AaaGl3bqupQVLafs85zze9GbJeCvTXci5Pcn5fvL7nd/3fI/FNE1e5LLygtcRwBGAfbfNnp4eO6ABNcA2sAUY1YrNzMwcDADQev3RT+taCgOpsPta4LfWK8BjYPMwIAcBqPU2bn/84bufdAfbbp868WrwwnpMHZ7+pf0ykAQ2r14/re8l4u8LVA2gOj16t1MR9Hb281Zrqe3Bw4nPa9vuDGTj6sjscMv3/r7AGpAD9KvXT5vPuwI2IaAsspTFJg5bHe+0n+ON5vdfWnw0fbHh9fGLqWVt6P7Nxkv5tDPi7wtkgfJBQPYCwBAgTZBmGUMmKeoZHDYvp1rOcLL5PUItgQFf59jA47BjODLp+y6z4g76+wLrQHE/IHsDGBaklEhTAiApYcgURT2DYvfS1fQm3U1nWG6f65/tuNWfXEndSAaP/xi/W3e7ArINyKoBdB2kKTHNp88QSISepmhkcdg8dDS089rLX7LaGT4/3T563ncyO54JHxuM/eEbA54AJcCsqgKmaSJ3ejVNg6LMUtRzKDYPzfUNfOT7jHhX7OzU0s2zta9EbiXu1n+VDnnvVSAOWAGDSgv2aqdJSW5Q0jewW114NIVzb/eycGLpgwljZS0d8n5RHYBuIVfYwJB7+47FYsFhd6I6rAihM7scJJSIEg+0/gSUq7wDFgwEhil2FsaCYnegOd1YsTOzGOJ+dIXNNXVobaLra1G2hasHMEAIiRByB2EF1aGhWF3MhVf5c3mZjbhz+NFk5zdGwR6pmFT5UGNoSIkhn66AYlPQnG5c9hqCqwkCiyFyCWUkt9D4beGh+x6Q2U34QGMoTIGotMBuU9CcGqqishRLMTUfIJuw3tiK1l/Orx6fqgg/c+SqNyIhsWBFdah4XB4i8XUm5+dIxeR4MXlsMB+qHwPSQHG/wvsFEIYAl6MGt1Mjnvqba+N3SMb06fIT7Up+wTdaMZld3e4wAAU9ryxm1kvdo3Mh4tHinJ5Rh7YeNA8BqYqw+DfzQLacc/3868jigJFVfy/MdwxWAknhvwokW1t/NV0CfngekeyZHnL0MzoC+N8D/DMAv72saI1IiPMAAAAASUVORK5CYII=" title="Event dispatch" /></td><td id="kdyby-event-arg-bb69ee5c00e0395a54d829da7556debd"><pre class="tracy-dump"><span class="tracy-toggle tracy-collapsed"><span class="tracy-dump-object">Kdyby\Events\EventArgsList</span> <span class="tracy-dump-hash">#bb69</span></span>
+<div class="tracy-collapsed"><span class="tracy-dump-indent">   </span><span class="tracy-dump-key">args</span> <span class="tracy-dump-visibility">private</span> => <span class="tracy-toggle"><span class="tracy-dump-array">array</span> (2)</span>
+<div><span class="tracy-dump-indent">   |  </span><span class="tracy-dump-key">0</span> => <span class="tracy-dump-object">Nette\Application\Application</span> <span class="tracy-dump-hash">#c219</span> { ... }
+<span class="tracy-dump-indent">   |  </span><span class="tracy-dump-key">1</span> => <span class="tracy-dump-object">App\Presenters\UsersPresenter</span> <span class="tracy-dump-hash">#0781</span> { ... }
+</div></div></pre>
+</td></tr><tr><th colspan=2 id="kdyby-event-ea11bda6a70ce75a1ab911761f621858">1x App\Presenters\UsersPresenter::onShutdown</th></tr><tr><td>&nbsp;</td><td>no system listeners</th></tr><tr><td width=18><img width="18" height="18" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAANsSURBVHja7JfdT5tVHMc/fXna8jztOmBFeRdRWDKNRrIZ4s3MYhYSb7gxpPPKXft27V+gtzN6MROJMwuaGOICWbYlhHAxwA6mg61AaaGl3bqupQVLafs85zze9GbJeCvTXci5Pcn5fvL7nd/3fI/FNE1e5LLygtcRwBGAfbfNnp4eO6ABNcA2sAUY1YrNzMwcDADQev3RT+taCgOpsPta4LfWK8BjYPMwIAcBqPU2bn/84bufdAfbbp868WrwwnpMHZ7+pf0ykAQ2r14/re8l4u8LVA2gOj16t1MR9Hb281Zrqe3Bw4nPa9vuDGTj6sjscMv3/r7AGpAD9KvXT5vPuwI2IaAsspTFJg5bHe+0n+ON5vdfWnw0fbHh9fGLqWVt6P7Nxkv5tDPi7wtkgfJBQPYCwBAgTZBmGUMmKeoZHDYvp1rOcLL5PUItgQFf59jA47BjODLp+y6z4g76+wLrQHE/IHsDGBaklEhTAiApYcgURT2DYvfS1fQm3U1nWG6f65/tuNWfXEndSAaP/xi/W3e7ArINyKoBdB2kKTHNp88QSISepmhkcdg8dDS089rLX7LaGT4/3T563ncyO54JHxuM/eEbA54AJcCsqgKmaSJ3ejVNg6LMUtRzKDYPzfUNfOT7jHhX7OzU0s2zta9EbiXu1n+VDnnvVSAOWAGDSgv2aqdJSW5Q0jewW114NIVzb/eycGLpgwljZS0d8n5RHYBuIVfYwJB7+47FYsFhd6I6rAihM7scJJSIEg+0/gSUq7wDFgwEhil2FsaCYnegOd1YsTOzGOJ+dIXNNXVobaLra1G2hasHMEAIiRByB2EF1aGhWF3MhVf5c3mZjbhz+NFk5zdGwR6pmFT5UGNoSIkhn66AYlPQnG5c9hqCqwkCiyFyCWUkt9D4beGh+x6Q2U34QGMoTIGotMBuU9CcGqqishRLMTUfIJuw3tiK1l/Orx6fqgg/c+SqNyIhsWBFdah4XB4i8XUm5+dIxeR4MXlsMB+qHwPSQHG/wvsFEIYAl6MGt1Mjnvqba+N3SMb06fIT7Up+wTdaMZld3e4wAAU9ryxm1kvdo3Mh4tHinJ5Rh7YeNA8BqYqw+DfzQLacc/3868jigJFVfy/MdwxWAknhvwokW1t/NV0CfngekeyZHnL0MzoC+N8D/DMAv72saI1IiPMAAAAASUVORK5CYII=" title="Event dispatch" /></td><td id="kdyby-event-arg-25c59c1e24a434b124fb5bfb28f8fd60"><pre class="tracy-dump"><span class="tracy-toggle tracy-collapsed"><span class="tracy-dump-object">Kdyby\Events\EventArgsList</span> <span class="tracy-dump-hash">#25c5</span></span>
+<div class="tracy-collapsed"><span class="tracy-dump-indent">   </span><span class="tracy-dump-key">args</span> <span class="tracy-dump-visibility">private</span> => <span class="tracy-toggle"><span class="tracy-dump-array">array</span> (2)</span>
+<div><span class="tracy-dump-indent">   |  </span><span class="tracy-dump-key">0</span> => <span class="tracy-dump-object">App\Presenters\UsersPresenter</span> <span class="tracy-dump-hash">#0781</span> { ... }
+<span class="tracy-dump-indent">   |  </span><span class="tracy-dump-key">1</span> => <span class="tracy-dump-object">Nette\Application\Responses\RedirectResponse</span> <span class="tracy-dump-hash">#a56c</span> { ... }
+</div></div></pre>
+</td></tr><tr><th colspan=2 id="kdyby-event-b4e6680744293ffe0a87ab53b18660db">1x Nette\Application\Application::onResponse</th></tr><tr><td>&nbsp;</td><td>no system listeners</th></tr><tr><td width=18><img width="18" height="18" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAANsSURBVHja7JfdT5tVHMc/fXna8jztOmBFeRdRWDKNRrIZ4s3MYhYSb7gxpPPKXft27V+gtzN6MROJMwuaGOICWbYlhHAxwA6mg61AaaGl3bqupQVLafs85zze9GbJeCvTXci5Pcn5fvL7nd/3fI/FNE1e5LLygtcRwBGAfbfNnp4eO6ABNcA2sAUY1YrNzMwcDADQev3RT+taCgOpsPta4LfWK8BjYPMwIAcBqPU2bn/84bufdAfbbp868WrwwnpMHZ7+pf0ykAQ2r14/re8l4u8LVA2gOj16t1MR9Hb281Zrqe3Bw4nPa9vuDGTj6sjscMv3/r7AGpAD9KvXT5vPuwI2IaAsspTFJg5bHe+0n+ON5vdfWnw0fbHh9fGLqWVt6P7Nxkv5tDPi7wtkgfJBQPYCwBAgTZBmGUMmKeoZHDYvp1rOcLL5PUItgQFf59jA47BjODLp+y6z4g76+wLrQHE/IHsDGBaklEhTAiApYcgURT2DYvfS1fQm3U1nWG6f65/tuNWfXEndSAaP/xi/W3e7ArINyKoBdB2kKTHNp88QSISepmhkcdg8dDS089rLX7LaGT4/3T563ncyO54JHxuM/eEbA54AJcCsqgKmaSJ3ejVNg6LMUtRzKDYPzfUNfOT7jHhX7OzU0s2zta9EbiXu1n+VDnnvVSAOWAGDSgv2aqdJSW5Q0jewW114NIVzb/eycGLpgwljZS0d8n5RHYBuIVfYwJB7+47FYsFhd6I6rAihM7scJJSIEg+0/gSUq7wDFgwEhil2FsaCYnegOd1YsTOzGOJ+dIXNNXVobaLra1G2hasHMEAIiRByB2EF1aGhWF3MhVf5c3mZjbhz+NFk5zdGwR6pmFT5UGNoSIkhn66AYlPQnG5c9hqCqwkCiyFyCWUkt9D4beGh+x6Q2U34QGMoTIGotMBuU9CcGqqishRLMTUfIJuw3tiK1l/Orx6fqgg/c+SqNyIhsWBFdah4XB4i8XUm5+dIxeR4MXlsMB+qHwPSQHG/wvsFEIYAl6MGt1Mjnvqba+N3SMb06fIT7Up+wTdaMZld3e4wAAU9ryxm1kvdo3Mh4tHinJ5Rh7YeNA8BqYqw+DfzQLacc/3868jigJFVfy/MdwxWAknhvwokW1t/NV0CfngekeyZHnL0MzoC+N8D/DMAv72saI1IiPMAAAAASUVORK5CYII=" title="Event dispatch" /></td><td id="kdyby-event-arg-65822772a76897cd4da4b6b6d52ae879"><pre class="tracy-dump"><span class="tracy-toggle tracy-collapsed"><span class="tracy-dump-object">Kdyby\Events\EventArgsList</span> <span class="tracy-dump-hash">#6582</span></span>
+<div class="tracy-collapsed"><span class="tracy-dump-indent">   </span><span class="tracy-dump-key">args</span> <span class="tracy-dump-visibility">private</span> => <span class="tracy-toggle"><span class="tracy-dump-array">array</span> (2)</span>
+<div><span class="tracy-dump-indent">   |  </span><span class="tracy-dump-key">0</span> => <span class="tracy-dump-object">Nette\Application\Application</span> <span class="tracy-dump-hash">#c219</span> { ... }
+<span class="tracy-dump-indent">   |  </span><span class="tracy-dump-key">1</span> => <span class="tracy-dump-object">Nette\Application\Responses\RedirectResponse</span> <span class="tracy-dump-hash">#a56c</span> { ... }
+</div></div></pre>
+</td></tr><tr><th colspan=2 id="kdyby-event-ff9c3047fe37b057e1bdae1f4ab85574">1x Nette\Application\Application::onShutdown</th></tr><tr><td>&nbsp;</td><td>no system listeners</th></tr><tr><td width=18><img width="18" height="18" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAANsSURBVHja7JfdT5tVHMc/fXna8jztOmBFeRdRWDKNRrIZ4s3MYhYSb7gxpPPKXft27V+gtzN6MROJMwuaGOICWbYlhHAxwA6mg61AaaGl3bqupQVLafs85zze9GbJeCvTXci5Pcn5fvL7nd/3fI/FNE1e5LLygtcRwBGAfbfNnp4eO6ABNcA2sAUY1YrNzMwcDADQev3RT+taCgOpsPta4LfWK8BjYPMwIAcBqPU2bn/84bufdAfbbp868WrwwnpMHZ7+pf0ykAQ2r14/re8l4u8LVA2gOj16t1MR9Hb281Zrqe3Bw4nPa9vuDGTj6sjscMv3/r7AGpAD9KvXT5vPuwI2IaAsspTFJg5bHe+0n+ON5vdfWnw0fbHh9fGLqWVt6P7Nxkv5tDPi7wtkgfJBQPYCwBAgTZBmGUMmKeoZHDYvp1rOcLL5PUItgQFf59jA47BjODLp+y6z4g76+wLrQHE/IHsDGBaklEhTAiApYcgURT2DYvfS1fQm3U1nWG6f65/tuNWfXEndSAaP/xi/W3e7ArINyKoBdB2kKTHNp88QSISepmhkcdg8dDS089rLX7LaGT4/3T563ncyO54JHxuM/eEbA54AJcCsqgKmaSJ3ejVNg6LMUtRzKDYPzfUNfOT7jHhX7OzU0s2zta9EbiXu1n+VDnnvVSAOWAGDSgv2aqdJSW5Q0jewW114NIVzb/eycGLpgwljZS0d8n5RHYBuIVfYwJB7+47FYsFhd6I6rAihM7scJJSIEg+0/gSUq7wDFgwEhil2FsaCYnegOd1YsTOzGOJ+dIXNNXVobaLra1G2hasHMEAIiRByB2EF1aGhWF3MhVf5c3mZjbhz+NFk5zdGwR6pmFT5UGNoSIkhn66AYlPQnG5c9hqCqwkCiyFyCWUkt9D4beGh+x6Q2U34QGMoTIGotMBuU9CcGqqishRLMTUfIJuw3tiK1l/Orx6fqgg/c+SqNyIhsWBFdah4XB4i8XUm5+dIxeR4MXlsMB+qHwPSQHG/wvsFEIYAl6MGt1Mjnvqba+N3SMb06fIT7Up+wTdaMZld3e4wAAU9ryxm1kvdo3Mh4tHinJ5Rh7YeNA8BqYqw+DfzQLacc/3868jigJFVfy/MdwxWAknhvwokW1t/NV0CfngekeyZHnL0MzoC+N8D/DMAv72saI1IiPMAAAAASUVORK5CYII=" title="Event dispatch" /></td><td id="kdyby-event-arg-de03403a9a8a7a884a0007cf8eebd2e7"><pre class="tracy-dump"><span class="tracy-toggle tracy-collapsed"><span class="tracy-dump-object">Kdyby\Events\EventArgsList</span> <span class="tracy-dump-hash">#de03</span></span>
+<div class="tracy-collapsed"><span class="tracy-dump-indent">   </span><span class="tracy-dump-key">args</span> <span class="tracy-dump-visibility">private</span> => <span class="tracy-toggle"><span class="tracy-dump-array">array</span> (1)</span>
+<div><span class="tracy-dump-indent">   |  </span><span class="tracy-dump-key">0</span> => <span class="tracy-dump-object">Nette\Application\Application</span> <span class="tracy-dump-hash">#c219</span> { ... }
+</div></div></pre>
+</td></tr><tr class="blank"><td colspan=2>&nbsp;</td></tr><tr><th colspan=2>0x Nette\Application\Application::onError</th></tr><tr><td>&nbsp;</td><td>no system listeners</th></tr><tr class="blank"><td colspan=2>&nbsp;</td></tr><tr><th colspan=2>0x Nette\Database\Connection::onConnect</th></tr><tr><td>&nbsp;</td><td>no system listeners</th></tr><tr class="blank"><td colspan=2>&nbsp;</td></tr><tr><th colspan=2>0x Nette\Database\Connection::onQuery</th></tr><tr><td>&nbsp;</td><td>no system listeners</th></tr><tr class="blank"><td colspan=2>&nbsp;</td></tr><tr><th colspan=2>0x Nette\Security\User::onLoggedIn</th></tr><tr><td>&nbsp;</td><td>no system listeners</th></tr><tr class="blank"><td colspan=2>&nbsp;</td></tr><tr><th colspan=2>0x Nette\Security\User::onLoggedOut</th></tr><tr><td>&nbsp;</td><td>no system listeners</th></tr><tr class="blank"><td colspan=2>&nbsp;</td></tr><tr><th colspan=2>Summary event call graph</th></tr><tr><td colspan=2><ul><li><a href="#kdyby-event-c51240489383a2f4d7917ce628878b0d">Nette\DI\Container::onInitialize</a> (<a href="#kdyby-event-arg-a69c63586d73c11dfb749bac52bac0f6">Kdyby\Events\EventArgsList</a>)</li></ul></td></tr><tr><td colspan=2><ul><li><a href="#kdyby-event-836f44d0273a227e94bb0eb0410d122e">Nette\Application\Application::onStartup</a> (<a href="#kdyby-event-arg-9e4be8076c88367ae9725462b69a0ed9">Kdyby\Events\EventArgsList</a>)</li></ul></td></tr><tr><td colspan=2><ul><li><a href="#kdyby-event-35aed183a30342143f90ffc302e70941">Nette\Application\Application::onRequest</a> (<a href="#kdyby-event-arg-696fc7ceb75cbe185cc765cb219aebee">Kdyby\Events\EventArgsList</a>)</li></ul></td></tr><tr><td colspan=2><ul><li><a href="#kdyby-event-b622552171dab5a708d04437ecfea8ce">Nette\Application\Application::onPresenter</a> (<a href="#kdyby-event-arg-bb69ee5c00e0395a54d829da7556debd">Kdyby\Events\EventArgsList</a>)</li></ul></td></tr><tr><td colspan=2><ul><li><a href="#kdyby-event-ea11bda6a70ce75a1ab911761f621858">App\Presenters\UsersPresenter::onShutdown</a> (<a href="#kdyby-event-arg-25c59c1e24a434b124fb5bfb28f8fd60">Kdyby\Events\EventArgsList</a>)</li></ul></td></tr><tr><td colspan=2><ul><li><a href="#kdyby-event-b4e6680744293ffe0a87ab53b18660db">Nette\Application\Application::onResponse</a> (<a href="#kdyby-event-arg-65822772a76897cd4da4b6b6d52ae879">Kdyby\Events\EventArgsList</a>)</li></ul></td></tr><tr><td colspan=2><ul><li><a href="#kdyby-event-ff9c3047fe37b057e1bdae1f4ab85574">Nette\Application\Application::onShutdown</a> (<a href="#kdyby-event-arg-de03403a9a8a7a884a0007cf8eebd2e7">Kdyby\Events\EventArgsList</a>)</li></ul></td></tr></table></div>";}i:3;a:3:{s:2:"id";s:43:"Nette-Bridges-ApplicationTracy-RoutingPanel";s:3:"tab";s:720:"<span title="Router">
+<svg viewBox="0 0 2048 2048">
+<path fill="#d86b01" d="m1559.7 1024c0 17-6 32-19 45l-670 694.48c-13 13-28 19-45 19s-32-6-45-19-19-28-19-45v-306.48h-438.52c-17 0-32-6-45-19s-19-28-19-45v-642c0-17 6-32 19-45s28-19 45-19h438.52v-309.41c0-17 6-32 19-45s28-19 45-19 32 6 45 19l670 691.41c13 13 19 28 19 45z"/>
+<path d="m1914.7 1505c0 79-31 147-87 204-56 56-124 85-203 85h-320c-9 0-16-3-22-9-14-23-21-90 3-110 5-4 12-6 21-6h320c44 0 82-16 113-47s47-69 47-113v-962c0-44-16-82-47-113s-69-47-113-47h-312c-11 0-21-3-30-9-15-25-21-90 3-110 5-4 12-6 21-6h320c79 0 147 28 204 85 56 56 82 124 82 204-9 272 9 649 0 954z" fill-opacity=".5" fill="#d86b01"/>
+</svg><span class="tracy-label">Users:edit</span>
+</span>
+";s:5:"panel";s:1677:"<style class="tracy-debug">
+
+	#tracy-debug .nette-RoutingPanel table {
+		font: 9pt/1.5 Consolas, monospace;
+	}
+
+	#tracy-debug .nette-RoutingPanel .yes td {
+		background: #BDE678 !important;
+	}
+
+	#tracy-debug .nette-RoutingPanel .may td {
+		background: #C1D3FF !important;
+	}
+
+	#tracy-debug .nette-RoutingPanel pre, #tracy-debug .nette-RoutingPanel code {
+		display: inline;
+		background: transparent;
+	}
+
+</style>
+
+<div class="nette-RoutingPanel">
+<h1>
+	Users:edit</h1>
+
+<div class="tracy-inner">
+	<table>
+	<thead>
+	<tr>
+		<th></th>
+		<th>Mask / Class</th>
+		<th>Defaults</th>
+				<th>Matched as</th>
+	</tr>
+	</thead>
+
+	<tbody>
+		<tr class="no">
+		<td></td>
+
+		<td><code title="Nette\Application\Routers\Route">Nette\Application\Routers\Route</code></td>
+
+		<td><code>
+					presenter&nbsp;=&nbsp;Login<br />					action&nbsp;=&nbsp;login<br />				</code></td>
+
+		
+		<td></td>
+	</tr>
+		<tr class="yes">
+		<td>✓</td>
+
+		<td><code title="Nette\Application\Routers\Route">&lt;presenter&gt;/&lt;action&gt;/[&lt;id&gt;/]</code></td>
+
+		<td><code>
+					presenter&nbsp;=&nbsp;Login<br />					action&nbsp;=&nbsp;login<br />					id&nbsp;=&nbsp;<pre class="tracy-dump"><span class="tracy-dump-null">NULL</span>
+</pre>
+				</code></td>
+
+		
+		<td><code>
+				<strong>Users:edit</strong><br />
+							id&nbsp;=&nbsp;4<br />				</code></td>
+	</tr>
+		</tbody>
+	</table>
+
+	<p><code>GET</code>
+	<code>http://localhost/grido-examples/www/<span style="background:#eee; white-space:nowrap">users/edit/4/</span></code></p>
+
+		<p><a href="editor://open/?file=E%3A%5Cwamp%5Cwww%5Cgrido-examples%5Capp%5Cpresenters%5CUsersPresenter.php&amp;line=12">App\Presenters\UsersPresenter</a></p>
+	</div>
+</div>
+";}i:4;a:3:{s:2:"id";s:43:"Nette-Bridges-DatabaseTracy-ConnectionPanel";s:3:"tab";s:633:"<span title="Nette\Database default">
+<svg viewBox="0 0 2048 2048"><path fill="#aaa" d="M1024 896q237 0 443-43t325-127v170q0 69-103 128t-280 93.5-385 34.5-385-34.5-280-93.5-103-128v-170q119 84 325 127t443 43zm0 768q237 0 443-43t325-127v170q0 69-103 128t-280 93.5-385 34.5-385-34.5-280-93.5-103-128v-170q119 84 325 127t443 43zm0-384q237 0 443-43t325-127v170q0 69-103 128t-280 93.5-385 34.5-385-34.5-280-93.5-103-128v-170q119 84 325 127t443 43zm0-1152q208 0 385 34.5t280 93.5 103 128v128q0 69-103 128t-280 93.5-385 34.5-385-34.5-280-93.5-103-128v-128q0-69 103-128t280-93.5 385-34.5z"/>
+</svg><span class="tracy-label">0</span>
+</span>
+";s:5:"panel";s:0:"";}i:5;a:3:{s:2:"id";s:37:"Nette-Bridges-SecurityTracy-UserPanel";s:3:"tab";s:441:"<span title="Unlogged">
+<svg viewBox="0 -50 2048 2048"><path fill="#ababab" d="m1615 1803.5c-122 17-246 7-369 8-255 1-510 3-765-1-136-2-266-111-273-250-11-192 11-290.5 115-457.5 62-100 192-191 303-147 110 44 201 130 321 149 160 25 317-39 446-130 82-58 200-9 268 51 157 173 186.8 275.49 184 484.49-1.9692 147.11-108.91 271.41-230 293zm-144-1226.5c0 239-208 447-447 447s-447-208-447-447 208-447 447-447c240 1 446 207 447 447z"/></svg>
+</span>
+";s:5:"panel";s:76:"<div class="nette-UserPanel">
+	<h1>Unlogged</h1>
+
+	<p>no identity</p></div>
+";}}s:8:"liveData";a:0:{}}}}
